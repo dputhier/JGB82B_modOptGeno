@@ -72,7 +72,7 @@ img {
 <h2>Functional enrichment analysis.</h2>
 <div id="problematic" class="section level3">
 <h3>Problematic</h3>
-<p>Most of current technologies in genomics produce a large amount of data. Downstream analysis ends-up with list of genes that can be de-regulated. As this gene set may be rather large (from tens to hundreds) it obviously becomes complicated to perform bibliographic study for each of them. In the present section, we will present an alternative approach based on gene ontologies and statistical tests to declared whether a given gene list is enriched for genes associated to a particular biological term.</p>
+<p>Most of current technologies in genomics produce a large amount of data. Downstream analysis ends-up with list of genes that can be de-regulated. As this gene set may be rather large (from tens to hundreds) it obviously becomes complicated to perform bibliographic study for each of them. In the present section, we will present an alternative approach based on gene ontologies and statistical tests to declared whether a given gene list is enriched for genes associated to a particular biological term. We will here dissect the approach that is offered by numerous bioinformatic software including <a href="https://david.ncifcrf.gov/">DAVID</a>.</p>
 </div>
 <div id="material" class="section level3">
 <h3>Material</h3>
@@ -89,8 +89,12 @@ img {
 <li><a href="http://pedagogix-tagc.univ-mrs.fr/courses/ASG1/practicals/go_statistics_td/go_statistics_td.html">Tutorial on GO statistics</a></li>
 </ul>
 </div>
-<div id="detecting-peak-in-chip-seq-data" class="section level3">
-<h3>Detecting Peak in ChIP-Seq data</h3>
+</div>
+<div id="detecting-peak-in-chip-seq-data" class="section level2">
+<h2>Detecting Peak in ChIP-Seq data</h2>
+<div id="the-problematic" class="section level3">
+<h3>The problematic</h3>
+<p>Here the problematic is to declare whether a particular genomic regions displays a ChIP-Seq signal enriched over a background signal (Input). We will adopt a step by step approach and re-implement a prototype of the <a href="www.ncbi.nlm.nih.gov/pubmed/18798982">MACS</a> algorithm.</p>
 <ul>
 <li><a href="slides/chipseq__roscoff2015.pdf">Introduction to ChIP-Seq</a></li>
 <li>The Poisson law <a href="http://dputhier.github.io/STAT1_R/practical/R_intro.html">Tutorial</a>.</li>
