@@ -31,7 +31,7 @@ We will here dissect the approach that is offered by numerous bioinformatic soft
 Here the problematic is to declare whether a particular genomic regions displays a ChIP-Seq signal enriched over a background signal (Input). We will adopt a step by step approach and re-implement a prototype of the [MACS](www.ncbi.nlm.nih.gov/pubmed/18798982) algorithm.
 
   - [Introduction to ChIP-Seq](slides/chipseq__roscoff2015.pdf)
-  - The Poisson law [Tutorial](http://dputhier.github.io/STAT1_R/practical/R_intro.html).
+  - The Poisson law [Tutorial by J. van Helden](http://jvanheld.github.io/EBA15_stats_RStudio/).
   
 
 
