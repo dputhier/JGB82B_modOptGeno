@@ -2,4 +2,4 @@
 Module optionnel de génomique (Polytech)
 
 
-[Site Web](http://dputhier.github.io/modOptGeno/modoptgeno.html)
+[Site Web](http://dputhier.github.io/modOptGeno/index.html)
