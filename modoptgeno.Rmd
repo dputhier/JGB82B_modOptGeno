@@ -1,0 +1,37 @@
+---
+title: "Module Optionnel de génomique (Polytech 4A)"
+author: "Denis Puthier"
+date: "30 Mar 2016"
+output: html_document
+---
+
+## Functional enrichment analysis.
+
+### Problematic
+
+Most of current technologies in genomics produce a large amount of data. Downstream analysis ends-up with list of genes that can be de-regulated. As this gene set may be rather large (from tens to hundreds) it obviously becomes complicated to perform bibliographic study for each of them.
+In the present section, we will present an alternative approach based on gene ontologies and statistical tests to declared whether a given gene list is enriched for genes associated to a particular biological term.
+We will here dissect the approach that is offered by numerous bioinformatic software including [DAVID](https://david.ncifcrf.gov/).
+
+### Material
+
+  - About the hypergeometric test and Fisher's exact test. Introduction (on white board).
+  - The [gene ontology](http://geneontology.org/) web site.
+  - The [National Center for Biomedical Ontologies (NCBO)](http://www.bioontology.org/) web site.
+  - The [Database for Annotation, Visualization and Integrated Discovery (DAVID )](https://david.ncifcrf.gov/) web site.
+  - Some molecular signatures obtained from [TBrowser](http://tagc.univ-mrs.fr/tbrowser/). The jar file (soft/TBrowser_V3.1.jar).
+      - Gene sets 1 '60E0C1ABC' [(data)](heatmaps/heatmap_1.txt), Gene sets 1 [(png)](heatmaps/heatmap_1.png).
+      - Gene sets 2 '145B59B7C' [(data)](heatmaps/heatmap_2.txt), Gene sets 1 [(png)](heatmaps/heatmap_2.png). 
+  - [Tutorial on GO statistics](http://pedagogix-tagc.univ-mrs.fr/courses/ASG1/practicals/go_statistics_td/go_statistics_td.html)
+
+## Detecting Peak in ChIP-Seq data
+
+### The problematic
+
+Here the problematic is to declare whether a particular genomic regions displays a ChIP-Seq signal enriched over a background signal (Input). We will adopt a step by step approach and re-implement a prototype of the [MACS](www.ncbi.nlm.nih.gov/pubmed/18798982) algorithm.
+
+  - [Introduction to ChIP-Seq](slides/chipseq__roscoff2015.pdf)
+  - The Poisson law [Tutorial](http://dputhier.github.io/STAT1_R/practical/R_intro.html).
+  
+
+
