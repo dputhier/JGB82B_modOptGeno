@@ -1,5 +1,5 @@
 ---
-title: "Module Optionnel de génomique (Polytech 4A)"
+title: "JGB82B - Module Optionnel de génomique (Polytech 4A)"
 author: "Denis Puthier"
 date: "30 Mar 2016"
 output: html_document
