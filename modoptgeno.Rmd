@@ -23,6 +23,7 @@ We will here dissect the approach that is offered by numerous bioinformatic soft
       - Gene sets 1 '60E0C1ABC' [(data)](heatmaps/heatmap_1.txt), Gene sets 1 [(png)](heatmaps/heatmap_1.png).
       - Gene sets 2 '145B59B7C' [(data)](heatmaps/heatmap_2.txt), Gene sets 1 [(png)](heatmaps/heatmap_2.png). 
   - [Tutorial on GO statistics](http://pedagogix-tagc.univ-mrs.fr/courses/ASG1/practicals/go_statistics_td/go_statistics_td.html)
+  - [RNA-Seq dataset](counts/pasilla_gene_counts.tsv).
 
 ## Detecting Peak in ChIP-Seq data
 
